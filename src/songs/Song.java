@@ -8,6 +8,9 @@ public class Song {
 	private int track;
 	private int year;
 	
+	public Song() {
+	}
+	
 	public Song( String title, String artist ) {
 		this( title, artist, "", "", 0, 0);
 	}
