@@ -5,7 +5,7 @@ public class Song {
 	private String artist;
 	private String album;
 	private String composer;
-	private int track;
+	private int track2;
 	private int year;
 	
 	public Song() {
@@ -20,7 +20,7 @@ public class Song {
        this.artist = artist;
        this.album = album;
        this.composer = composer;
-       this.track = track;
+       this.track2 = track;
        this.year = year;
 	}
 	
@@ -51,11 +51,11 @@ public class Song {
 	}
 	
 	public int getTrack() {
-		return track;
+		return track2;
 	}
 	
 	public void setTrack(int track) {
-		this.track = track;
+		this.track2 = track;
 	}
 	
 	public int getYear() {
@@ -72,7 +72,7 @@ public class Song {
 			" " + title +
 			"(" + album +
 			"," + year + 
-			"," + track + "번 track" +
+			"," + track2 + "번 track" +
 			"," + composer + "작곡)"
 		);
 	}
